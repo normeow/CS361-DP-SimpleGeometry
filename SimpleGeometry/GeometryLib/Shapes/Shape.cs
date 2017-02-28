@@ -14,5 +14,7 @@ namespace GeometryLib.Shapes
     public abstract class Shape : IPrintable
     {
         public abstract string print();
+
+        public abstract double GetArea();
     }
 }
